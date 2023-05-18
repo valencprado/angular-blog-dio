@@ -1,0 +1,28 @@
+.container-big-card {
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 10px;
+    background-color: #121212;
+}
+
+.big-card-img>img {
+    width: 100%;
+    min-width: 45vw;
+    height: 200px;
+}
+
+.big-card-title, .big-card-description {
+    margin: .625rem 0 0 .625rem;
+}
+ a {
+    text-decoration: none;
+    color: #EEE;
+}
+
+.big-card-description {
+    color: #999;
+}
