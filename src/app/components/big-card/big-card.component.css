@@ -18,10 +18,6 @@
 .big-card-title, .big-card-description {
     margin: .625rem 0 0 .625rem;
 }
- a {
-    text-decoration: none;
-    color: #EEE;
-}
 
 .big-card-description {
     color: #999;
