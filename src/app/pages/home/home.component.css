@@ -4,8 +4,3 @@
     flex-direction: row;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
