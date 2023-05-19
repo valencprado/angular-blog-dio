@@ -1,0 +1,30 @@
+@media (max-width:  650px
+) {
+  .container-big-card {
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+  }
+  .big-card-img {
+    align-items: center;
+    display: grid;
+  }
+}
+
+@media (max-width: 790px) and (min-width:  650px
+) {
+  .container-big-card {
+    align-items: flex-start;
+  }
+  .big-card-img {
+    align-items: center;
+    display: grid;
+  }
+  .big-card-description p{
+    text-align: start;
+  }
+  .big-card-img img {
+    width: 100%;
+  }
+
+}

@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-big-card',
   templateUrl: './big-card.component.html',
-  styleUrls: ['./big-card.component.css']
+  styleUrls: ['./big-card.component.css', './big-card.responsive.component.css']
 })
 export class BigCardComponent {
   @Input()
@@ -13,5 +13,5 @@ export class BigCardComponent {
   @Input()
   cardDecription: string = '';
   @Input()
-  Id:string = '';
+  Id:string = '0';
 }

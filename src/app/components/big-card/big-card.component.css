@@ -3,16 +3,21 @@
     height: 60vh;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     margin: 0 10px;
     background-color: #121212;
+    transition: all .5s;
 }
-
+.container-big-card:hover {
+    background-color: #3e3e3e;
+    border-radius: 10px;
+    transform: scale(1.01);
+}
 .big-card-img>img {
     width: 100%;
-    min-width: 37vw;
     height: 200px;
+  
 }
 
 .big-card-title, .big-card-description {

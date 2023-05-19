@@ -1,0 +1,9 @@
+@media (max-width:  650px
+){
+    .container-small-card {
+       width: 100%; 
+    }
+    .separator {
+        width: 100%;
+    }
+   }
